@@ -1,6 +1,6 @@
 from django.urls import path
 from . import views
-
+#sd
 urlpatterns = [
     path('uvod', views.get_uvod, name='uvod'),
     path('kontakt', views.get_kontakt, name='kontakt'),
